@@ -1,0 +1,14 @@
+[package]
+name = "jwt-tool"
+version = "0.1.0"
+edition = "2021"
+keywords = ["jwt", "cli"]
+authors = ["Andrew McHarg"]
+description = "Parse JWT tokens"
+
+[dependencies]
+anyhow = "1"
+biscuit = "0.6.0"
+clap = { version = "4.3", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
